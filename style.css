@@ -1,0 +1,27 @@
+/* This is for Body  */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* This is For Memory Button  */
+.btn-default {
+  border: 1px solid #000 !important;
+}
+.price-border {
+  border-bottom: 1px solid #919191;
+  margin-bottom: 20px;
+}
+.price-border h5 {
+  font-weight: 600;
+}
+.price-border-bold h5 {
+  font-weight: 600;
+}
+.price-border-bold {
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+
+.section-border {
+  border-top: 2px solid #000;
+}

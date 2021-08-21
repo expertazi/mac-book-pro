@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Macbook Pro</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- This is bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="mt-5 mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <img class="img-fluid" src="img/mac.png" alt="" />
+            </div>
+            <div class="col-lg-7">
+              <h1>Customize your Blue 24‑inch iMac with Apple M1 chip.</h1>
+              <p>
+                Apple M1 chip with 8-core CPU with 4 performance cores and 4
+                efficiency cores, 7-core GPU, and 16-core Neural Engine.Apple M1
+                chip with 8-core CPU with 4 performance cores and 4 efficiency
+                cores, 7-core GPU, and 16-core Neural Engine
+              </p>
+              <!-- this is for Memory  -->
+              <div>
+                <p class="mt-4"><strong>Memory</strong></p>
+                <div class="d-grid gap-2 d-md-block">
+                  <button
+                    id="memory-card-8gb"
+                    class="btn btn-default"
+                    type="button"
+                  >
+                    8GB unified memory
+                  </button>
+                  <button
+                    id="memory-card-16gb"
+                    class="btn btn-default"
+                    type="button"
+                  >
+                    16GB unified memory
+                  </button>
+                </div>
+              </div>
+
+              <!-- this is for Storage  -->
+              <p class="mt-5"><strong>Storage</strong></p>
+              <div class="d-grid gap-2 d-md-block">
+                <button id="ssd-256gb" class="btn btn-default" type="button">
+                  256GB SSD storage
+                </button>
+                <button id="ssd-512gb" class="btn btn-default" type="button">
+                  512GB SSD storage
+                </button>
+                <button id="ssd-1tb" class="btn btn-default" type="button">
+                  1TB SSD storage
+                </button>
+              </div>
+              <!-- Choose The Delivery Option  -->
+              <p class="mt-5"><strong>Choose The Delivery Option</strong></p>
+              <div class="d-grid gap-2 d-md-block">
+                <button
+                  id="late-delivery"
+                  class="btn btn-default"
+                  type="button"
+                >
+                  Friday, Aug 25 FREE Prime Delivery
+                </button>
+                <button
+                  id="fast-delivery"
+                  class="btn btn-default"
+                  type="button"
+                >
+                  Friday, Aug 21 Delivery charge $20
+                </button>
+              </div>
+              <!-- this is for Total  -->
+              <div class="col-lg-6 mt-5">
+                <div class="d-flex justify-content-between price-border">
+                  <h5 class="">Best Price</h5>
+                  <h5 class="">$ <span id="best-price">1299</span></h5>
+                </div>
+
+                <div class="d-flex justify-content-between price-border">
+                  <h5 class="">Extra Memory Cost</h5>
+                  <h5 class="">$ <span id="extra-memory-cost">0</span></h5>
+                </div>
+
+                <div class="d-flex justify-content-between price-border">
+                  <h5 class="">Extra Storage Cost</h5>
+                  <h5 class="">$ <span id="extra-ssd-cost">0</span></h5>
+                </div>
+
+                <div class="d-flex justify-content-between price-border-bold">
+                  <h5 class="">Delivery Charge</h5>
+                  <h5 class="">$ <span id="delivery-cost">0</span></h5>
+                </div>
+
+                <div class="d-flex justify-content-between price-border">
+                  <h5 class="">Total Price</h5>
+                  <h5 class="">$ <span id="total-price">1299</span></h5>
+                </div>
+                <p class="mt-5"><strong>Add Promo Code</strong></p>
+                <div class="d-flex justify-content-between">
+                  <input
+                    id="input-coupon"
+                    class="form-control w-75"
+                    type="text"
+                    name=""
+                    id=""
+                  />
+                  <button id="coupon" class="btn btn-danger w-25">Apply</button>
+                </div>
+              </div>
+              <div class="col-lg-6"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pb-5">
+        <div class="container">
+          <div class="section-border">
+            <h1 class="text-center mt-3">
+              Total:$ <span id="total-all-price-buttom">1299</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
